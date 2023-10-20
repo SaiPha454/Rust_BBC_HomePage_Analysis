@@ -16,11 +16,11 @@
             "tag": "Middle East"
         },
         {
-            "url": "/news/live/uk-politics-67126173",
+            "url": "/news/live/world-us-canada-67153521",
             "summary": "",
-            "title": "History in the making, says Starmer after double by-election victory",
-            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/1438C/production/_131482828_b30336a9d91c55c7fc8dc24be884d17220e7034d.jpg",
-            "tag": "UK Politics"
+            "title": "Republican Jordan set to lose third House Speaker vote",
+            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/133B9/production/_131477787_jimjordan111.jpg",
+            "tag": "US & Canada"
         },
         {
             "url": "https://www.bbc.com/culture/article/20231019-from-victoria-beckham-to-coleen-rooney-how-the-wags-became-the-women-that-britain-loved-to-hate",
@@ -44,18 +44,18 @@
             "tag": "Europe"
         },
         {
+            "url": "/news/67173814",
+            "summary": "Police are looking for a 49-year-old man in connection to the killing of Judge Andrew Wilkinson.",
+            "title": "Maryland judge shot and killed outside his home",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "US & Canada"
+        },
+        {
             "url": "/news/entertainment-arts-67168074",
             "summary": "Stars are banned from wearing outfits based on hit TV shows and films under the Hollywood strike.",
             "title": "Striking actors given Halloween costume rules",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
             "tag": "Entertainment & Arts"
-        },
-        {
-            "url": "/news/world-asia-67166271",
-            "summary": "The landlord claimed the embassy failed to pay up to NZ$960 in rubbish removal and other costs.",
-            "title": "NZ landlord loses rubbish row with Chinese embassy",
-            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Asia"
         },
         {
             "url": "/sport/live/cricket/66858257",
@@ -65,11 +65,11 @@
             "tag": "Cricket"
         },
         {
-            "url": "/sport/live/football/67166765",
-            "summary": "Build-up to the return of the Premier League after the international break with 16 pre-match news conferences, plus Women's Champions League draw.",
-            "title": "Football latest & Premier League news conferences",
+            "url": "/sport/rugby-union/67171844",
+            "summary": "Former England international Paul Grayson and ex-Springbok Bobby Skinstad plot a path to victory for underdogs England in Saturday's World Cup semi-final.",
+            "title": "How England can upset odds and beat South Africa",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Football"
+            "tag": "Rugby Union"
         },
         {
             "url": "/sport/tennis/67166854",
@@ -157,17 +157,17 @@
         },
         {
             "url": "/news/entertainment-arts-67172672",
-            "summary": "She was known for TV shows like Drop the Dead Donkey, Peak Practice, Merseybeat and The Windsors.",
+            "summary": "Dame Helen Mirren leads the tributes to \"a delight as a person and a consummate dedicated actress\".",
             "title": "Screen and stage star Haydn Gwynne dies aged 66",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
             "tag": "Entertainment & Arts"
         },
         {
-            "url": "/news/business-67153676",
+            "url": "/news/technology-67169228",
             "summary": "",
-            "title": "Nokia to axe up to 14,000 jobs to cut costs",
+            "title": "Meta sorry for Palestinian 'terrorist' bio error",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Business"
+            "tag": "Technology"
         },
         {
             "url": "/news/world-africa-67155786",
@@ -175,6 +175,13 @@
             "title": "Poses, pouts and poles: Africa's top shots",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
             "tag": "Africa"
+        },
+        {
+            "url": "/news/business-67153676",
+            "summary": "",
+            "title": "Nokia to axe up to 14,000 jobs to cut costs",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "Business"
         },
         {
             "url": "/news/science-environment-67159294",
@@ -189,13 +196,6 @@
             "title": "Lack of urgency as Covid spread, inquiry told",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
             "tag": "Health"
-        },
-        {
-            "url": "/news/technology-67169228",
-            "summary": "",
-            "title": "Meta sorry for Palestinian 'terrorist' bio error",
-            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Technology"
         },
         {
             "url": "/news/entertainment-arts-66808131",

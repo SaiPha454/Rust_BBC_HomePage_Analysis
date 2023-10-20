@@ -1,29 +1,40 @@
-use bbcscraper::scape::{runscrape, analyze};
+use bbc_analyser::bbc_analyser_module::{scrape, analyze};
 use std::error::Error;
-use clap::{App, SubCommand};
-
+use clap::{App, Arg};
 
 fn main()-> Result<(), Box<dyn Error>> {
 
-    let _matches = App::new("bbcscrape")
-                    .subcommand(
-                        SubCommand::with_name("scrape")
-                        .about("Scrape and extract data from bbc.com")
-                    )
-                    .subcommand(
-                        SubCommand::with_name("analyze")
-                        .about("Analyze collected data based on the tag category.")
-                    ).get_matches();
+    let _matches = App::new("BBC HomePage Analyser")
+                                    .version("1.0.0")
+                                    .about("This project is to scrape BBC Homepage News and \nmake efficient analysis to categorize the collected data")
+                                    .author("Sai Marn Pha<66011203>, saimarnpha@gmail.com")
+                                    .arg(
+                                        Arg::with_name("scape")
+                                        .value_name("Scrape")
+                                        .short("s")
+                                        .conflicts_with("analyse")
+                                        .takes_value(false)
+                                        .help("Flag for scraping")
+                                        
+                                    )
+                                    .arg(
+                                        Arg::with_name("analyse")
+                                        .value_name("Analyse")
+                                        .short("n")
+                                        .conflicts_with("scrape")
+                                        .takes_value(false)
+                                        .help("Flag for analysising")
+                                    )
+                                    .get_matches();
 
-    match _matches.subcommand() {
-                        ("scrape", Some(_)) => {
-                            runscrape()?;
-                        }
-                        ("analyze", Some(_)) => {
-                            analyze()?;
-                        }
-                        _ => println!("No subcommand provided."),
-                    }                  
+    let analysing = _matches.is_present("analyse");
+
+    if analysing {
+        analyze()?;
+    }else {
+        //set default run to scraping
+        scrape()?;
+    }             
 
     Ok(())
 

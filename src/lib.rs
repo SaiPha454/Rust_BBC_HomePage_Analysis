@@ -1,4 +1,5 @@
-pub mod scape {
+pub mod bbc_analyser_module {
+
     use std::io::Read;
     use std::{error::Error, io::Write};
     use json::{JsonValue, stringify_pretty};
@@ -15,109 +16,17 @@ pub mod scape {
         pub tag : String
     }
 
-
     #[derive(Debug)]
     pub struct Tag<'a> {
         pub label : &'a str,
         pub tags : Vec<&'a str>
     }
 
+
     pub fn fetch_html(url : &str)-> Result<String, reqwest::Error> {
+
         let response = reqwest::blocking::get(url)?;
         return response.text();
-    }
-
-    pub fn save_to_json(data : Vec<News>) -> Result<(), Box<dyn Error>> {
-
-        let mut json_object = JsonValue::new_object();
-        
-        let mut news_array = JsonValue::new_array();
-
-        for new in data {
-
-            if new.title == "" && new.summary == "" {
-                continue;
-            }
-            let mut each_new = JsonValue::new_object();
-            each_new["url"] = JsonValue::String(new.url);
-            each_new["summary"] = JsonValue::String(new.summary);
-            each_new["title"] = JsonValue::String(new.title);
-            each_new["image"] = JsonValue::String(new.image);
-            each_new["tag"] = JsonValue::String(new.tag);
-
-            news_array.push(each_new)?;
-        }
-
-        json_object["Agency"] = JsonValue::String("BBC NEWS AGENCY".to_string());
-        json_object["news"] = news_array;
-
-
-        let mut jsonfile = File::create("data.json")?;
-        jsonfile.write_all(stringify_pretty(json_object, 4).as_bytes())?;
-        println!("Saved successfully");
-
-        Ok(())
-    }
-
-    pub fn runscrape()-> Result<(), Box<dyn Error>> {
-
-        let html = fetch_html("https://www.bbc.com")?;
-        let html = Html::parse_document(&html);
-    
-        let li_tag = Selector::parse("li.media-list__item")?;
-        let p_summary_tag = Selector::parse("p.media__summary")?;
-        let title_tag = Selector::parse("a.media__link")?;
-        let media_image = Selector::parse("div.media__image")?;
-        let media_tag = Selector::parse("a.media__tag")?;
-    
-        let mut news :Vec<News>= Vec::new();
-    
-        for li in html.select(&li_tag) {
-    
-            let mut title = String::new();
-            let mut summary = String::new();
-            let mut url = String::new();
-            let mut image = String::new();
-            let mut tag = String::new();
-    
-            for tl in li.select(&title_tag) {
-                title = tl.text().collect::<String>();
-                if let Some(link) = tl.value().attr("href") {
-                    url = link.to_string();
-                }
-            }
-            for p_sm in li.select(&p_summary_tag) {
-                summary=  p_sm.text().collect::<String>();
-            }
-    
-            for img_div in li.select(&media_image) {
-    
-                let img = Selector::parse("img").unwrap();
-
-                for img in img_div.select(&img) {
-    
-                    if let Some(img_url) = img.value().attr("src") {
-    
-                        image = img_url.to_string();
-                    }
-                }
-            }
-            for md_tg in li.select(&media_tag) {
-                tag = md_tg.text().collect::<String>();
-            }
-            news.push(
-                News { 
-                    url,
-                    summary: summary.trim().to_string(), 
-                    title : title.trim().to_string(),
-                    image: image,
-                    tag: tag
-                }
-            );
-        }
-    
-        save_to_json(news)?;
-        Ok(())
     }
 
     pub fn read_json(filename : &str) -> Result<JsonValue, Box<dyn Error>> {
@@ -131,9 +40,8 @@ pub mod scape {
         Ok(parsed_json)
     }
 
+
     pub fn save_svg(data: Vec<(&str, i32)>) {
-
-
         
         let mut svg = String::new();
         svg.push_str("<svg width=\"700\" height=\"400\" xmlns=\"http://www.w3.org/2000/svg\">");
@@ -169,7 +77,103 @@ pub mod scape {
         svg_file.write_all(svg.as_bytes()).unwrap();
 
     }
+    pub fn save_to_json(data : Vec<News>) -> Result<(), Box<dyn Error>> {
 
+        let mut json_object = JsonValue::new_object();
+        let mut news_array = JsonValue::new_array();
+
+        for new in data {
+
+            if new.title == "" && new.summary == "" {
+                continue;
+            }
+            let mut each_new = JsonValue::new_object();
+            each_new["url"] = JsonValue::String(new.url);
+            each_new["summary"] = JsonValue::String(new.summary);
+            each_new["title"] = JsonValue::String(new.title);
+            each_new["image"] = JsonValue::String(new.image);
+            each_new["tag"] = JsonValue::String(new.tag);
+
+            news_array.push(each_new)?;
+        }
+
+        json_object["Agency"] = JsonValue::String("BBC NEWS AGENCY".to_string());
+        json_object["news"] = news_array;
+
+
+        let mut jsonfile = File::create("data.json")?;
+        jsonfile.write_all(stringify_pretty(json_object, 4).as_bytes())?;
+
+        Ok(())
+    }
+
+    pub fn scrape()-> Result<(), Box<dyn Error>> {
+
+        let html = Html::parse_document(&fetch_html("https://www.bbc.com")?);
+    
+        //each news is wrapped in the li tag
+        let li_tag = Selector::parse("li.media-list__item")?;
+        let p_summary_tag = Selector::parse("p.media__summary")?;
+        let title_tag = Selector::parse("a.media__link")?;
+        let img_tag = Selector::parse("div.media__image")?;
+        let category_tag = Selector::parse("a.media__tag")?;
+    
+        let mut collected_news = Vec::new();
+    
+        for li in html.select(&li_tag) {
+    
+            let mut title = String::new();
+            let mut summary = String::new();
+            let mut url = String::new();
+            let mut image = String::new();
+            let mut category = String::new();
+            
+            //extract title
+            if let Some(tl) = li.select(&title_tag).into_iter().next() {
+
+                title = tl.text().collect::<String>();
+                if let Some(link) = tl.value().attr("href") {
+                    url = link.to_string();
+                }
+            }
+
+            //extract the summary of the news
+            if let Some(p_sm) = li.select(&p_summary_tag).into_iter().next() {
+                summary=  p_sm.text().collect::<String>();
+            }
+            
+            //extract the image source url
+            if let Some(img_div) = li.select(&img_tag).into_iter().next() {
+    
+                let img = Selector::parse("img").unwrap();
+                if let  Some(img) = img_div.select(&img).into_iter().next() {
+    
+                    if let Some(img_url) = img.value().attr("src") {
+    
+                        image = img_url.to_string();
+                    }
+                }
+            }
+
+            //extract the tag 
+            if let  Some(md_tg) = li.select(&category_tag).into_iter().next() {
+                category = md_tg.text().collect::<String>();
+            }
+
+            collected_news.push(
+                News { 
+                    url,
+                    summary: summary.trim().to_string(), 
+                    title : title.trim().to_string(),
+                    image: image,
+                    tag: category
+                }
+            );
+        }
+        
+        save_to_json(collected_news)?;
+        Ok(())
+    }
 
     pub fn analyze() -> Result<(), Box<dyn Error>> {
 
@@ -270,6 +274,5 @@ pub mod scape {
         save_svg(tags);
         Ok(())
     }
-
 
 }
