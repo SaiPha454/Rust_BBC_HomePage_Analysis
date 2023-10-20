@@ -15,6 +15,13 @@ pub mod scape {
         pub tag : String
     }
 
+
+    #[derive(Debug)]
+    pub struct Tag<'a> {
+        pub label : &'a str,
+        pub tags : Vec<&'a str>
+    }
+
     pub fn fetch_html(url : &str)-> Result<String, reqwest::Error> {
         let response = reqwest::blocking::get(url)?;
         return response.text();
@@ -132,20 +139,27 @@ pub mod scape {
         svg.push_str("<svg width=\"700\" height=\"400\" xmlns=\"http://www.w3.org/2000/svg\">");
         svg.push_str("<rect x=\"0\" y=\"0\" width=\"700\" height=\"400\" fill=\"white\" stroke=\"black\" stroke-width=\"2\" />");
         svg.push_str("<text x=\"300\" y=\"50\" text-anchor=\"middle\" font-size=\"23\"> BBC Home Page Analysis </text>");
-        let total: usize = data.len();
+        let mut total: i32 = 0;
+        for i in &data {
+            total += i.1;
+        }
+        
         let mut y = 80;
         let bar_hegiht = 15;
         for (k, v) in &data {
             
-            let percent = (*v as f32 )/ (total as f32);
-            let bar = format!("<rect x=\"180\" y=\"{}\" width=\"{}\" height=\"{}\" fill=\"blue\" />", y, percent*300.0, bar_hegiht);
+            let percent = (*v as f32 )/ (total as f32) * 100.0;
+            let bar_len = percent*10.0;
+            let bar = format!("<rect x=\"180\" y=\"{}\" width=\"{}\" height=\"{}\" fill=\"blue\" />", y, bar_len, bar_hegiht);
             let label = format!("<text x=\"160\" y=\"{}\" text-anchor=\"end\" font-size=\"13\"> {} </text>", (y+ (bar_hegiht/2)) , k);
-            let percent_label = format!("<text x=\"{}\" y=\"{}\" font-size=\"13\"> {} %</text>", percent*300.0+200.0,(y+ (bar_hegiht/2)) , (percent *100.0) as i32);
+            let percent_label = format!("<text x=\"{}\" y=\"{}\" font-size=\"13\"> {} %</text>", bar_len+200.0,(y+ (bar_hegiht/2)) , percent.round());
+
+            let total_news = format!("<text x=\"300\" text-anchor=\"middle\" y=\"350\" font-size=\"16\"> Total : {}</text>", total);
             
             svg.push_str(&bar);
             svg.push_str(&label);
             svg.push_str(&percent_label);
-
+            svg.push_str(&total_news);
             y += bar_hegiht+10;
             
         }
@@ -160,32 +174,94 @@ pub mod scape {
     pub fn analyze() -> Result<(), Box<dyn Error>> {
 
         let categories = [
-            "sport", "culture", "future",
-            "travel", "asia","business", 
-            "science", "entertainment", "health",
-            "other"
+            Tag{
+                label: "Sport", 
+                tags:vec!["football", "cricket", "formula", "rugby", 
+                "tennis", "golf", "athletics", "cycling"],
+            },
+            Tag {
+                label: "Asia",
+                tags: vec!["china", "india", "asia"]
+            },
+            Tag {
+                label: "UK",
+                tags: vec!["england", "northern ireland", "scotland", "wales", "isle of man", "guernsey", "jersey", "local", "uk"]
+            },
+            Tag {
+                label: "World",
+                tags: vec!["africa", "australia", "europe", "latin", "middle", "canada"]
+            },
+            Tag {
+                label: "Business",
+                tags: vec!["business"]
+            },
+            Tag {
+                label: "Technology and Science",
+                tags: vec!["technology", "science"]
+            },
+            Tag {
+                label: "Entertainments and Arts",
+                tags: vec!["entertainment", "arts"]
+            },
+            Tag {
+                label: "Health",
+                tags: vec!["health"]
+            },
+            Tag {
+                label: "Other",
+                tags: Vec::new()
+            },
         ];
 
         let mut tags: HashMap<&str, i32> = HashMap::new();
-        for c in categories {
-            tags.insert(c, 0);
+        for t in &categories {
+            tags.insert(t.label, 0);
         }
 
-        for data in read_json("data.json")?["news"].members() {
+        let json_data = read_json("data.json")?;
+        let mut already_exist: Vec<&str> = Vec::new();
+        for data in json_data["news"].members() {
             
             let mut status = false;
+            
+            if already_exist.contains(&data["title"].as_str().unwrap()) {
+                continue;
+            }
+            for tag in &categories {
 
-            for tag in categories {
-                
-                if data["url"].to_string().contains(tag) || data["tag"].to_string().contains(tag) {
-                    status = true;
-                    tags.entry(tag).and_modify(|x| *x = *x +1);
-                    break;
+                if let Some(t) = data["tag"].as_str() {
+
+                    if tag.tags.contains(&t.to_lowercase().as_str()) {
+
+                        tags.entry(&tag.label).and_modify(|x| *x = *x +1);
+                        status = true;
+                        already_exist.push(&data["title"].as_str().unwrap());
+                        break;
+                    }
                 }
             }
 
+            if status == true {
+                continue;
+            }
+            for tag in &categories {
+
+                if let Some(t) = data["url"].as_str() {
+
+                    for each_tag in &tag.tags {
+                        if t.to_string().contains(&each_tag.to_lowercase().as_str()) {
+                            
+                            tags.entry(&tag.label).and_modify(|x| *x = *x +1);
+                            status = true;
+
+                            already_exist.push(&data["title"].as_str().unwrap());
+                            break;
+                        }
+                    }
+                }
+            }
             if status == false {
-                tags.entry("other").and_modify(|x| *x = *x +1);
+                tags.entry("Other").and_modify(|x| *x = *x +1);
             }
         }
 

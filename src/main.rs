@@ -3,7 +3,6 @@ use std::error::Error;
 use clap::{App, SubCommand};
 
 
-
 fn main()-> Result<(), Box<dyn Error>> {
 
     let _matches = App::new("bbcscrape")
