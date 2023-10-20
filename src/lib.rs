@@ -5,7 +5,7 @@ pub mod bbc_analyser_module {
     use std::io::Read;
     use std::{error::Error, io::Write};
     use json::{JsonValue, stringify_pretty};
-    use scraper::{Html, Selector};
+    use scraper::{Html, Selector, html};
     use std::fs::File;
     use std::collections::HashMap;
     use crate::tags::tags;
@@ -110,9 +110,19 @@ pub mod bbc_analyser_module {
         Ok(())
     }
 
-    pub fn scrape()-> Result<(), Box<dyn Error>> {
+    pub fn scrape(offline : bool)-> Result<(), Box<dyn Error>> {
 
-        let html = Html::parse_document(&fetch_html("https://www.bbc.com")?);
+        let mut html:Html;
+
+        if !offline {
+            html = Html::parse_document(&fetch_html("https://www.bbc.com")?);
+        }else {
+            let mut html_content = String::new();
+            let mut html_file = File::open("./test.html")?;
+            html_file.read_to_string(&mut html_content)?;
+            html = Html::parse_document(html_content.as_str());
+        }
+        
     
         //each news is wrapped in the li tag
         let li_tag = Selector::parse("li.media-list__item")?;
@@ -198,7 +208,7 @@ pub mod bbc_analyser_module {
             if extracted.contains(&data["title"].as_str().unwrap()) {
                 continue;
             }
-            
+
             for tag in &categories {
 
                 //check buy tag

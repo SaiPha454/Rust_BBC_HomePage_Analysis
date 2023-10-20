@@ -18,12 +18,21 @@ fn main()-> Result<(), Box<dyn Error>> {
                                         
                                     )
                                     .arg(
+                                        Arg::with_name("offline")
+                                        .value_name("Offline")
+                                        .long("offline")
+                                        .conflicts_with("analyse")
+                                        .takes_value(false)
+                                        .help("Flag for scraping offline")
+                                        
+                                    )
+                                    .arg(
                                         Arg::with_name("analyse")
                                         .value_name("Analyse")
                                         .short("n")
                                         .conflicts_with("scrape")
                                         .takes_value(false)
-                                        .help("Flag for analysising")
+                                        .help("Flag for analysing")
                                     )
                                     .get_matches();
 
@@ -33,7 +42,7 @@ fn main()-> Result<(), Box<dyn Error>> {
         analyze()?;
     }else {
         //set default run to scraping
-        scrape()?;
+        scrape(_matches.is_present("offline"))?;
     }             
 
     Ok(())
