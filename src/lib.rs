@@ -1,3 +1,5 @@
+mod tags;
+
 pub mod bbc_analyser_module {
 
     use std::io::Read;
@@ -6,6 +8,7 @@ pub mod bbc_analyser_module {
     use scraper::{Html, Selector};
     use std::fs::File;
     use std::collections::HashMap;
+    use crate::tags::tags;
 
     #[derive(Debug)]
     pub struct News {
@@ -177,45 +180,7 @@ pub mod bbc_analyser_module {
 
     pub fn analyze() -> Result<(), Box<dyn Error>> {
 
-        let categories = [
-            Tag{
-                label: "Sport", 
-                tags:vec!["football", "cricket", "formula", "rugby", 
-                "tennis", "golf", "athletics", "cycling"],
-            },
-            Tag {
-                label: "Asia",
-                tags: vec!["china", "india", "asia"]
-            },
-            Tag {
-                label: "UK",
-                tags: vec!["england", "northern ireland", "scotland", "wales", "isle of man", "guernsey", "jersey", "local", "uk"]
-            },
-            Tag {
-                label: "World",
-                tags: vec!["africa", "australia", "europe", "latin", "middle", "canada"]
-            },
-            Tag {
-                label: "Business",
-                tags: vec!["business"]
-            },
-            Tag {
-                label: "Technology and Science",
-                tags: vec!["technology", "science"]
-            },
-            Tag {
-                label: "Entertainments and Arts",
-                tags: vec!["entertainment", "arts"]
-            },
-            Tag {
-                label: "Health",
-                tags: vec!["health"]
-            },
-            Tag {
-                label: "Other",
-                tags: Vec::new()
-            },
-        ];
+        let categories = tags();
 
         let mut tags: HashMap<&str, i32> = HashMap::new();
         for t in &categories {
@@ -223,33 +188,32 @@ pub mod bbc_analyser_module {
         }
 
         let json_data = read_json("data.json")?;
-        let mut already_exist: Vec<&str> = Vec::new();
+
+        let mut extracted: Vec<&str> = Vec::new();
         for data in json_data["news"].members() {
             
             let mut status = false;
             
-            if already_exist.contains(&data["title"].as_str().unwrap()) {
+            //protect not to check the same item
+            if extracted.contains(&data["title"].as_str().unwrap()) {
                 continue;
             }
+            
             for tag in &categories {
 
+                //check buy tag
                 if let Some(t) = data["tag"].as_str() {
 
                     if tag.tags.contains(&t.to_lowercase().as_str()) {
 
                         tags.entry(&tag.label).and_modify(|x| *x = *x +1);
                         status = true;
-                        already_exist.push(&data["title"].as_str().unwrap());
+                        extracted.push(&data["title"].as_str().unwrap());
                         break;
                     }
                 }
-            }
 
-            if status == true {
-                continue;
-            }
-            for tag in &categories {
-
+                //check by url
                 if let Some(t) = data["url"].as_str() {
 
                     for each_tag in &tag.tags {
@@ -258,12 +222,13 @@ pub mod bbc_analyser_module {
                             tags.entry(&tag.label).and_modify(|x| *x = *x +1);
                             status = true;
 
-                            already_exist.push(&data["title"].as_str().unwrap());
+                            extracted.push(&data["title"].as_str().unwrap());
                             break;
                         }
                     }
                 }
             }
+            
             if status == false {
                 tags.entry("Other").and_modify(|x| *x = *x +1);
             }
