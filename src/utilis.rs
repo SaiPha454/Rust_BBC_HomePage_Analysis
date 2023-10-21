@@ -5,6 +5,15 @@ pub struct Tag<'a> {
     pub tags : Vec<&'a str>
 }
 
+#[derive(Debug)]
+pub struct News {
+    pub url: String,
+    pub summary : String,
+    pub title : String,
+    pub image : String,
+    pub tag : String
+}
+
 pub fn tags () ->Vec<Tag<'static>> {
      
     vec![

@@ -2,79 +2,114 @@
     "Agency": "BBC NEWS AGENCY",
     "news": [
         {
+            "url": "/news/world-middle-east-67180401",
+            "summary": "The BBC's Rushdi Abu Alouf describes his family narrowly avoiding a drone attack - and being displaced four times in 15 days.",
+            "title": "My daughters beg to go home - but our old lives in Gaza City are over",
+            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/A4F5/production/_131492224_microsoftteams-image.png",
+            "tag": "Middle East"
+        },
+        {
             "url": "/news/live/world-middle-east-67165505",
-            "summary": "The Israel Defence Forces says the majority of the hostages are alive, as the UN describes conditions in Gaza as a \"hellhole\".",
-            "title": "Israel military says 20 children among hostages held in Gaza",
-            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/E7E8/production/_131486395_gettyimages-1746151111.jpg",
+            "summary": "",
+            "title": "Trucks carry aid and coffins into Gaza - but UN calls it 'drop in the ocean'",
+            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/894D/production/_131494153_4168ed597b1aea37e64d18b937ea94bf7a296971.jpg",
             "tag": "Middle East"
         },
         {
-            "url": "/news/world-middle-east-67165128",
+            "url": "/news/world-europe-67182172",
             "summary": "",
-            "title": "Community frozen as Hamas atrocities continue to emerge",
-            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/14FA8/production/_131482958_israel-composite-index.jpg",
-            "tag": "Middle East"
-        },
-        {
-            "url": "/news/live/world-us-canada-67153521",
-            "summary": "",
-            "title": "Republican Jordan loses third House Speaker vote",
-            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/133B9/production/_131477787_jimjordan111.jpg",
-            "tag": "US & Canada"
-        },
-        {
-            "url": "https://www.bbc.com/culture/article/20231019-from-victoria-beckham-to-coleen-rooney-how-the-wags-became-the-women-that-britain-loved-to-hate",
-            "summary": "",
-            "title": "The British obsession with footballers' wives",
-            "image": "https://ichef.bbc.co.uk/wwhp/144/ibroadcast/images/live/p0/gm/lv/p0gmlvt0.jpg",
-            "tag": "Culture"
-        },
-        {
-            "url": "https://www.bbc.com/worklife/article/20231015-the-double-edged-sword-of-revealing-mental-health-issues-at-work",
-            "summary": "",
-            "title": "The workplace mental health stigma",
-            "image": "https://ichef.bbc.co.uk/wwhp/144/ibroadcast/images/live/p0/gl/cn/p0glcnlp.jpg",
-            "tag": "Worklife"
-        },
-        {
-            "url": "/news/world-europe-67168294",
-            "summary": "Giorgia Meloni says the relationship is over after a TV show airs her partner's off-air comments.",
-            "title": "Italy PM splits from partner after lewd TV remarks",
-            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "title": "Why Kyiv's east bank gain could be significant",
+            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/768D/production/_131494303_war.jpg",
             "tag": "Europe"
         },
         {
-            "url": "/news/world-us-canada-67175328",
-            "summary": "The judge said Mr Trump had failed to take down a post from his website mocking a court clerk.",
-            "title": "Judge threatens to jail Trump for breaking gag order",
-            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "US & Canada"
+            "url": "/sport/live/formula1/63208739",
+            "summary": "",
+            "title": "United States Grand Prix: Sprint shootout and sprint race - radio & text",
+            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/143F7/production/_131453928_gettyimages-1722483821.jpg",
+            "tag": "Formula 1"
         },
         {
-            "url": "/news/entertainment-arts-67168074",
-            "summary": "Stars are banned from wearing outfits based on hit TV shows and films under the Hollywood strike.",
-            "title": "Striking actors given Halloween costume rules",
+            "url": "https://www.bbc.com/travel/article/20231020-japans-ancient-art-of-taiko-drumming",
+            "summary": "",
+            "title": "A 12,000-year-old sensory experience",
+            "image": "https://ichef.bbc.co.uk/wwhp/144/ibroadcast/images/live/p0/gl/wc/p0glwch9.jpg",
+            "tag": "Travel"
+        },
+        {
+            "url": "/news/entertainment-arts-67181962",
+            "summary": "The actress apologises after her remarks about a waitress's weight resurface on social media.",
+            "title": "Emily Blunt regrets 'hurtful' comments in old clip",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
             "tag": "Entertainment & Arts"
         },
         {
-            "url": "/sport/live/formula1/63208737",
-            "summary": "Follow live text and audio commentary of Friday practice and qualifying at the United States Grand Prix in Austin, Texas.",
-            "title": "United States Grand Prix: Friday practice and qualifying - radio & text",
+            "url": "/sport/live/football/64628874",
+            "summary": "Reaction as England World Cup winner and Manchester United legend Bobby Charlton dies aged 86.",
+            "title": "England World Cup winner Sir Bobby Charlton dies - reaction",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Formula 1"
+            "tag": "Football"
         },
         {
-            "url": "/sport/cricket/67171930",
-            "summary": "David Warner's superb 163 inspires Australia to a 62-run victory over Pakistan as they breathe life into their World Cup campaign.",
-            "title": "Warner ton inspires Australia victory over Pakistan",
+            "url": "/news/world-67177744",
+            "summary": "The BBC's Marianna Spring shares tips to help you spot what's real and what's fake on your timeline.",
+            "title": "How to spot disinformation on social media",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "World"
+        },
+        {
+            "url": "/sport/football/62989801",
+            "summary": "Sir Bobby Charlton, one of the key players in England's 1966 World Cup victory and a Manchester United legend, dies at the age of 86.",
+            "title": "England and Man Utd legend Charlton dies aged 86",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "Football"
+        },
+        {
+            "url": "/sport/rugby-union/67172009",
+            "summary": "England's Rugby World Cup campaign is entering uncharted territory as they brace themselves for impact with one of the game's superpower.",
+            "title": "England face up to World Cup day of reckoning",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "Rugby Union"
+        },
+        {
+            "url": "/sport/cricket/67181950",
+            "summary": "England's World Cup defence is hanging by a thread after a horrible 229-run thrashing by South Africa in Mumbai.",
+            "title": "England hopes fading after South Africa thrashing",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
             "tag": "Cricket"
         },
         {
-            "url": "/sport/rugby-union/67171844",
-            "summary": "Former England international Paul Grayson and ex-Springbok Bobby Skinstad plot a path to victory for underdogs England in Saturday's World Cup semi-final.",
-            "title": "How England can upset odds and beat South Africa",
+            "url": "https://www.bbc.com/travel/article/20231017-a-world-first-in-the-scottish-highlands",
+            "summary": "It aims to address the imbalance between people and landscape in the UK",
+            "title": "Scotland's ambitious rewilding plan",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "Travel"
+        },
+        {
+            "url": "https://www.bbc.com/worklife/article/20231016-the-spooky-seven-figure-business-of-halloween-haunted-houses",
+            "summary": "The spooky, seven-figure business of Halloween haunted houses",
+            "title": "The haunted houses that cost millions",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "Worklife"
+        },
+        {
+            "url": "https://www.bbc.com/future/article/20231018-why-are-bed-bugs-so-difficult-to-deal-with",
+            "summary": "They've evolved to make the most of domestic life",
+            "title": "Why bed bugs are getting harder to beat",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "Future"
+        },
+        {
+            "url": "/news/world-asia-67167601",
+            "summary": "Nawaz Sharif, toppled in a coup and later jailed for corruption, is back home to fight elections.",
+            "title": "The Pakistan army’s one-time arch-rival returns",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "Asia"
+        },
+        {
+            "url": "/sport/rugby-union/67177704",
+            "summary": "Will Jordan scores an impressive hat-trick as seven-try New Zealand crush Argentina at Stade de France to reach a record fifth Rugby World Cup final.",
+            "title": "All Blacks cruise past Argentina to reach final",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
             "tag": "Rugby Union"
         },
@@ -93,18 +128,18 @@
             "tag": "US & Canada"
         },
         {
-            "url": "/news/world-asia-67051969",
-            "summary": "Fishing communities on this Indonesian island are locked in a battle with the government over land.",
-            "title": "'We will not leave': The islanders fighting eviction",
+            "url": "https://www.bbc.com/culture/article/20231019-ellen-von-unwerth-intimate-images-capturing-star-quality",
+            "summary": "Photographer Ellen von Unwerth talks burlesque, Britney and creating dreamworlds",
+            "title": "A photographer of candid intimacy",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Asia"
+            "tag": "Culture"
         },
         {
-            "url": "/news/world-asia-india-67166633",
-            "summary": "Success of Gaganyaan, India's first manned space mission planned for 2025, will depend on Saturday's launch.",
-            "title": "India key test flight ahead of manned space mission",
+            "url": "https://www.bbc.com/future/article/20231013-how-unearthing-diseases-ancient-origins-could-help-produce-modern-cures",
+            "summary": "Our distant ancestors hold clues to microbial migration",
+            "title": "The DNA viruses left in ancient remains",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "India"
+            "tag": "Future"
         },
         {
             "url": "https://www.bbc.com/travel/article/20231019-the-women-paddling-the-thames-in-animal-skin-boats",
@@ -114,67 +149,60 @@
             "tag": "Travel"
         },
         {
-            "url": "https://www.bbc.com/future/article/20231018-why-are-bed-bugs-so-difficult-to-deal-with",
-            "summary": "They've evolved to make the most of domestic life",
-            "title": "Why bed bugs are getting harder to beat",
-            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Future"
-        },
-        {
-            "url": "https://www.bbc.com/culture/article/20231018-killers-of-the-flower-moon-how-the-shocking-osage-murders-were-nearly-erased-from-us-history",
-            "summary": "The shocking true story behind Scorsese's latest epic",
-            "title": "The murders erased from US history",
-            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Culture"
-        },
-        {
-            "url": "https://www.bbc.com/worklife/article/20231013-are-influencer-partnerships-the-inevitable-future-of-business",
-            "summary": "\"A beautiful art form\": The revenue-driving power of influencer partnerships",
-            "title": "How influencers generate big revenue",
+            "url": "https://www.bbc.com/worklife/article/20231012-how-every-workplace-became-toxic",
+            "summary": "\"'Toxic' is so overused that I don't react when I see it now\"",
+            "title": "How every workplace became 'toxic'",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
             "tag": "Worklife"
         },
         {
-            "url": "https://www.bbc.com/news/world-africa-67155786",
-            "summary": "A selection of the best photos from the African continent and beyond",
+            "url": "https://www.bbc.com/news/newsbeat-44124396",
+            "summary": "Tensions between Israel and the Palestinians date back decades, but what are the key issues?",
+            "title": "Israel Gaza war: History of the conflict explained",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "Middle East"
+        },
+        {
+            "url": "https://www.bbc.com/news/in-pictures-67157348",
+            "summary": "A selection of striking images from around the world, taken over the past seven days",
+            "title": "Space, straw and squirrels: Photos of the week",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "In Pictures"
+        },
+        {
+            "url": "https://www.bbc.com/news/newsbeat-67164348",
+            "summary": "Chloe Chong started karting on the same track as Lewis Hamilton",
+            "title": "The 16-year-old living her F1 racing dream",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "Newsbeat"
+        },
+        {
+            "url": "/news/world-africa-67155786",
+            "summary": "A selection of the best photos from the African continent and beyond.",
             "title": "Poses, pouts and poles: Africa's top shots",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
             "tag": "Africa"
         },
         {
-            "url": "https://www.bbc.com/news/world-europe-67168388",
-            "summary": "The parish priest said he would have acted differently had he known they were carved by children",
-            "title": "Czech village priest sorry for smashing pumpkins",
-            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Europe"
-        },
-        {
-            "url": "https://www.bbc.com/news/world-africa-67166644",
-            "summary": "The Hollywood actress says \"deception\" ended her love for TV host Selema Masekela",
-            "title": "Lupita Nyong'o fans rally behind her after break-up",
-            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Africa"
-        },
-        {
             "url": "/news/entertainment-arts-67172672",
-            "summary": "Dame Helen Mirren leads the tributes to \"a delight as a person and a consummate dedicated actress\".",
+            "summary": "",
             "title": "Screen and stage star Haydn Gwynne dies aged 66",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
             "tag": "Entertainment & Arts"
         },
         {
-            "url": "/news/technology-67169228",
+            "url": "/news/technology-67170014",
             "summary": "",
-            "title": "Meta sorry for Palestinian 'terrorist' bio error",
+            "title": "Google’s face-altering photo tool sparks AI manipulation debate",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
             "tag": "Technology"
         },
         {
-            "url": "/news/world-australia-67153713",
+            "url": "/news/entertainment-arts-67173910",
             "summary": "",
-            "title": "Sydney Opera House: The story of an icon in photos",
+            "title": "Welsh rapper Ren scores surprise number one",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Australia"
+            "tag": "Entertainment & Arts"
         },
         {
             "url": "/news/business-67153676",
@@ -184,9 +212,9 @@
             "tag": "Business"
         },
         {
-            "url": "/news/science-environment-67159294",
+            "url": "/news/science-environment-66989115",
             "summary": "",
-            "title": "Christmas cheer for turkey farmers hit by bird flu",
+            "title": "Rescue mission for UK rainforests’ weird treasures",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
             "tag": "Science & Environment"
         },
@@ -198,11 +226,11 @@
             "tag": "Health"
         },
         {
-            "url": "/news/entertainment-arts-67173910",
+            "url": "/news/world-australia-67153713",
             "summary": "",
-            "title": "Welsh rapper Ren scores surprise number one",
-            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Entertainment & Arts"
+            "title": "Sydney Opera House: The story of an icon in photos",
+            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/5791/production/_131471422_gettyimages-1401152176.jpg",
+            "tag": "Australia"
         },
         {
             "url": "/news/in-pictures-67087949",
@@ -231,13 +259,6 @@
             "title": "A tussle between two Nubian ibexes among photo award winners",
             "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/16BAA/production/_131389039_976_amit_eshel.jpg",
             "tag": "Science & Environment"
-        },
-        {
-            "url": "/news/uk-england-london-67016295",
-            "summary": "",
-            "title": "Thames photographs reimagine historical events",
-            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/5B57/production/_131338332_8b4d4e6d-072c-43df-9cb1-0840b191ee3b.jpg",
-            "tag": "London"
         }
     ]
 }
