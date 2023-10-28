@@ -3,38 +3,52 @@
     "news": [
         {
             "url": "/news/live/world-middle-east-67246761",
-            "summary": "Communications go down in Gaza, leaving residents uncontactable. Hamas says clashes are taking place in northern areas.",
-            "title": "Israel says ground operations expanding as it intensifies Gaza bombing",
-            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/165E9/production/_131552619_gettyimages-1749114077-1.jpg",
+            "summary": "The BBC's Rushdi Abualouf, reporting from Gaza, says the bombing in the north of the Strip overnight was \"on a scale we’ve never seen before\".",
+            "title": "'Total chaos' in Gaza after Israel's heaviest night of bombing yet",
+            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/923B/production/_131553473_87fb90c04776fc58a2edca98347f9aa35e0b08c833_0_3796_21351000x563.jpg",
             "tag": "Middle East"
         },
         {
             "url": "/news/world-us-canada-67247726",
             "summary": "",
-            "title": "Maine mass shooting suspect found dead - police",
+            "title": "Maine mass shooting suspect found dead",
             "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/167DC/production/_131542129_c0889d86a4d6e4a5bd19891f89daad179af875090_390_5768_32441000x563.jpg",
             "tag": "US & Canada"
         },
         {
-            "url": "/news/world-asia-66984050",
+            "url": "/news/world-europe-67248267",
             "summary": "",
-            "title": "Going undercover to reveal people smugglers' tactics",
-            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/115E7/production/_131534117_gettyimages-1204298375.jpg",
-            "tag": "Asia"
+            "title": "At least 21 dead after mine fire in Kazakhstan",
+            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/861F/production/_131553343_090810721f145a0311bd22f240977ed8fc87a22a0_0_5517_37521000x680.jpg",
+            "tag": "Europe"
         },
         {
-            "url": "/sport/formula1/67246002",
+            "url": "https://www.bbc.com/future/article/20231027-alien-language-if-we-met-extraterrestrials-could-we-talk-to-them",
             "summary": "",
-            "title": "Verstappen tops Mexico City GP practice",
-            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/5091/production/_131552602_maxverstappen.jpg",
-            "tag": "Formula 1"
+            "title": "The people who want to speak to aliens",
+            "image": "https://ichef.bbc.co.uk/wwhp/144/ibroadcast/images/live/p0/gp/63/p0gp639w.jpg",
+            "tag": "Future"
+        },
+        {
+            "url": "https://www.bbc.com/travel/article/20231027-a-turkish-secret-hiding-in-plain-sight",
+            "summary": "",
+            "title": "A Turkish secret hiding in plain sight",
+            "image": "https://ichef.bbc.co.uk/wwhp/144/ibroadcast/images/live/p0/gp/73/p0gp739v.jpg",
+            "tag": "Travel"
         },
         {
             "url": "/news/world-us-canada-67243100",
-            "summary": "",
+            "summary": "A judge ruled Ivanka Trump must testify in a case that accuses her father and brothers of financial fraud.",
             "title": "Donald Trump and children to testify in fraud case",
-            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/A6C6/production/_131549624_gettyimages-1125161853-1.jpg",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
             "tag": "US & Canada"
+        },
+        {
+            "url": "/news/world-asia-66984050",
+            "summary": "They say their routes from Pakistan are “safe”, with one claiming “hundreds” are transported daily.",
+            "title": "Going undercover to reveal people smugglers' tactics",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "Asia"
         },
         {
             "url": "/news/world-us-canada-67246163",
@@ -44,25 +58,18 @@
             "tag": "US & Canada"
         },
         {
-            "url": "/news/world-us-canada-67238812",
-            "summary": "The US fashion brand is jointly accused with its former CEO of participating in a sex-trafficking venture.",
-            "title": "Fashion brand A&F facing sex-trafficking lawsuit",
-            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "US & Canada"
-        },
-        {
-            "url": "/news/entertainment-arts-67237220",
-            "summary": "How does Taylor's Version of the hit album compare to the original, and why has she re-recorded it?",
-            "title": "Taylor Swift tackles slut shamers with 1989 remake",
-            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Entertainment & Arts"
-        },
-        {
             "url": "/sport/live/cricket/66858630",
-            "summary": "Follow live text, in-play video clips and radio commentary as Australia play New Zealand in the Men's Cricket World Cup 2023.",
-            "title": "World Cup: Australia make rapid start against New Zealand",
+            "summary": "Follow live text updates as Australia play New Zealand in the Men's Cricket World Cup 2023",
+            "title": "World Cup: Australia v New Zealand",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
             "tag": "Cricket"
+        },
+        {
+            "url": "/sport/rugby-union/67241976",
+            "summary": "South Africa are deploying a high-risk strategy in the highest-stakes game as New Zealand await in the Rugby World Cup final.",
+            "title": "Springboks' big bet spices powerhouse World Cup final",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "Rugby Union"
         },
         {
             "url": "/sport/football/67165823",
@@ -70,13 +77,6 @@
             "title": "Tottenham beat Palace to go five clear at top",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
             "tag": "Football"
-        },
-        {
-            "url": "/sport/rugby-union/67242541",
-            "summary": "England complete their Rugby World Cup campaign by overcoming a proud Argentina performance in the third-place play-off in Paris.",
-            "title": "England sneak past Pumas to win World Cup bronze",
-            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Rugby Union"
         },
         {
             "url": "https://www.bbc.com/worklife/article/20231025-gen-x-workers-want-different-benefits-companies-are-answering-the-call",
@@ -128,18 +128,11 @@
             "tag": "India"
         },
         {
-            "url": "https://www.bbc.com/future/article/20231027-alien-language-if-we-met-extraterrestrials-could-we-talk-to-them",
-            "summary": "Extraterrestrials are likely to have their own unique ways of communicating",
-            "title": "The people who want to speak to aliens",
-            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Future"
-        },
-        {
             "url": "https://www.bbc.com/future/article/20231026-are-halloween-pumpkins-a-future-superfood",
             "summary": "Halloween's favourite decoration could be the superfood of the future",
             "title": "Pumpkins: The overlooked superfood",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Future Planet"
+            "tag": "Future"
         },
         {
             "url": "https://www.bbc.com/travel/article/20231026-the-road-less-travelled-to-the-serengeti",
@@ -156,13 +149,6 @@
             "tag": "Culture"
         },
         {
-            "url": "https://www.bbc.com/travel/article/20231026-eight-of-the-best-smorrebrod-restaurants-in-copenhagen",
-            "summary": "Where to find the city’s most exciting smørrebrød",
-            "title": "A guide to eating lunch in Copenhagen",
-            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Travel"
-        },
-        {
             "url": "https://www.bbc.com/worklife/article/20231016-the-dark-side-of-touch-screen-tipping",
             "summary": "Digital tip options can sometimes increase gratuities, but at what cost?",
             "title": "The dark side of touch-screen tipping",
@@ -170,11 +156,25 @@
             "tag": "Worklife"
         },
         {
-            "url": "https://www.bbc.com/news/health-67228040",
-            "summary": "They were not expected to survive but Ruby and Rosie, now 11, are celebrating with five other sets",
-            "title": "Conjoined twins: Defying the odds to survive",
+            "url": "https://www.bbc.com/news/world-us-canada-67242752",
+            "summary": "An investigation by Canadian broadcaster CBC has questioned her indigenous ancestry claims",
+            "title": "Doubt cast on indigenous roots of Buffy Sainte-Marie",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Health"
+            "tag": "US & Canada"
+        },
+        {
+            "url": "https://www.bbc.com/news/uk-67150357",
+            "summary": "As the King heads for Kenya, royal links to colonialism and slavery will be under scrutiny",
+            "title": "History of slavery continues to haunt British royals",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "UK"
+        },
+        {
+            "url": "https://www.bbc.com/news/science-environment-67240450",
+            "summary": "The insect is declining in many parts of the UK due to a host of factors",
+            "title": "The man rescuing Britain's 'magical' glow worms",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "Science & Environment"
         },
         {
             "url": "/news/uk-england-london-67205468",
@@ -184,9 +184,9 @@
             "tag": "London"
         },
         {
-            "url": "/news/entertainment-arts-67242822",
+            "url": "/news/entertainment-arts-67237220",
             "summary": "",
-            "title": "Former Prime Minister Boris Johnson joins GB News",
+            "title": "Taylor Swift tackles slut shamers with 1989 remake",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
             "tag": "Entertainment & Arts"
         },
@@ -198,25 +198,11 @@
             "tag": "Health"
         },
         {
-            "url": "/news/uk-67229513",
+            "url": "/news/entertainment-arts-67242822",
             "summary": "",
-            "title": "Vogue editor named UK's most powerful black person",
+            "title": "Former Prime Minister Boris Johnson joins GB News",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "UK"
-        },
-        {
-            "url": "/news/science-environment-67240450",
-            "summary": "",
-            "title": "The man rescuing Britain's 'magical' glow worms",
-            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Science & Environment"
-        },
-        {
-            "url": "/news/uk-67225158",
-            "summary": "",
-            "title": "Sunak warns AI could help make chemical weapons",
-            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "UK"
+            "tag": "Entertainment & Arts"
         },
         {
             "url": "/news/science-environment-67230751",
@@ -224,6 +210,20 @@
             "title": "Reintroducing wildlife species 'not a priority'",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
             "tag": "Science & Environment"
+        },
+        {
+            "url": "/news/technology-67226795",
+            "summary": "",
+            "title": "Four problems Elon Musk needs to fix at X",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "Technology"
+        },
+        {
+            "url": "/news/uk-67225158",
+            "summary": "",
+            "title": "Sunak warns AI could help make chemical weapons",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "UK"
         },
         {
             "url": "/news/in-pictures-67193453",

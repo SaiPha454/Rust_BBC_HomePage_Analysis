@@ -58,7 +58,7 @@ pub fn save_svg(data: Vec<(&str, i32)>) {
     }
     svg.push_str("</svg>");
 
-    let mut svg_file = File::create("data.svg").unwrap();
+    let mut svg_file = File::create("report.svg").unwrap();
     svg_file.write_all(svg.as_bytes()).unwrap();
 
 }
