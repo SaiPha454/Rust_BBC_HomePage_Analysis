@@ -2,207 +2,249 @@
     "Agency": "BBC NEWS AGENCY",
     "news": [
         {
-            "url": "/news/live/world-middle-east-67165505",
-            "summary": "The Israel Defence Forces says the majority of the hostages are alive, as the UN describes conditions in Gaza as a \"hellhole\".",
-            "title": "Israel military says 20 children among hostages held in Gaza",
-            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/E7E8/production/_131486395_gettyimages-1746151111.jpg",
+            "url": "/news/live/world-middle-east-67246761",
+            "summary": "Communications go down in Gaza, leaving residents uncontactable. Hamas says clashes are taking place in northern areas.",
+            "title": "Israel says ground operations expanding as it intensifies Gaza bombing",
+            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/165E9/production/_131552619_gettyimages-1749114077-1.jpg",
             "tag": "Middle East"
         },
         {
-            "url": "/news/world-middle-east-67165128",
+            "url": "/news/world-us-canada-67247726",
             "summary": "",
-            "title": "Community frozen as Hamas atrocities continue to emerge",
-            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/14FA8/production/_131482958_israel-composite-index.jpg",
-            "tag": "Middle East"
+            "title": "Maine mass shooting suspect found dead - police",
+            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/167DC/production/_131542129_c0889d86a4d6e4a5bd19891f89daad179af875090_390_5768_32441000x563.jpg",
+            "tag": "US & Canada"
         },
         {
-            "url": "/news/live/uk-politics-67126173",
+            "url": "/news/world-asia-66984050",
             "summary": "",
-            "title": "History in the making, says Starmer after double by-election victory",
-            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/1438C/production/_131482828_b30336a9d91c55c7fc8dc24be884d17220e7034d.jpg",
-            "tag": "UK Politics"
+            "title": "Going undercover to reveal people smugglers' tactics",
+            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/115E7/production/_131534117_gettyimages-1204298375.jpg",
+            "tag": "Asia"
         },
         {
-            "url": "https://www.bbc.com/culture/article/20231019-from-victoria-beckham-to-coleen-rooney-how-the-wags-became-the-women-that-britain-loved-to-hate",
+            "url": "/sport/formula1/67246002",
             "summary": "",
-            "title": "The British obsession with footballers' wives",
-            "image": "https://ichef.bbc.co.uk/wwhp/144/ibroadcast/images/live/p0/gm/lv/p0gmlvt0.jpg",
-            "tag": "Culture"
+            "title": "Verstappen tops Mexico City GP practice",
+            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/5091/production/_131552602_maxverstappen.jpg",
+            "tag": "Formula 1"
         },
         {
-            "url": "https://www.bbc.com/worklife/article/20231015-the-double-edged-sword-of-revealing-mental-health-issues-at-work",
+            "url": "/news/world-us-canada-67243100",
             "summary": "",
-            "title": "The workplace mental health stigma",
-            "image": "https://ichef.bbc.co.uk/wwhp/144/ibroadcast/images/live/p0/gl/cn/p0glcnlp.jpg",
-            "tag": "Worklife"
+            "title": "Donald Trump and children to testify in fraud case",
+            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/A6C6/production/_131549624_gettyimages-1125161853-1.jpg",
+            "tag": "US & Canada"
         },
         {
-            "url": "/news/world-europe-67168294",
-            "summary": "Giorgia Meloni says the relationship is over after a TV show airs her partner's off-air comments.",
-            "title": "Italy PM splits from partner after lewd TV remarks",
+            "url": "/news/world-us-canada-67246163",
+            "summary": "The man caught and ate a salmon to survive after nearly two weeks floating in the frigid Pacific Ocean.",
+            "title": "Sailor rescued after days drifting in Pacific Ocean",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Europe"
+            "tag": "US & Canada"
         },
         {
-            "url": "/news/entertainment-arts-67168074",
-            "summary": "Stars are banned from wearing outfits based on hit TV shows and films under the Hollywood strike.",
-            "title": "Striking actors given Halloween costume rules",
+            "url": "/news/world-us-canada-67238812",
+            "summary": "The US fashion brand is jointly accused with its former CEO of participating in a sex-trafficking venture.",
+            "title": "Fashion brand A&F facing sex-trafficking lawsuit",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "US & Canada"
+        },
+        {
+            "url": "/news/entertainment-arts-67237220",
+            "summary": "How does Taylor's Version of the hit album compare to the original, and why has she re-recorded it?",
+            "title": "Taylor Swift tackles slut shamers with 1989 remake",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
             "tag": "Entertainment & Arts"
         },
         {
-            "url": "/news/world-asia-67166271",
-            "summary": "The landlord claimed the embassy failed to pay up to NZ$960 in rubbish removal and other costs.",
-            "title": "NZ landlord loses rubbish row with Chinese embassy",
-            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Asia"
-        },
-        {
-            "url": "/sport/live/cricket/66858257",
-            "summary": "Follow live text updates as Australia play Pakistan in the Men's Cricket World Cup 2023",
-            "title": "World Cup: Australia v Pakistan - text",
+            "url": "/sport/live/cricket/66858630",
+            "summary": "Follow live text, in-play video clips and radio commentary as Australia play New Zealand in the Men's Cricket World Cup 2023.",
+            "title": "World Cup: Australia make rapid start against New Zealand",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
             "tag": "Cricket"
         },
         {
-            "url": "/sport/live/football/67166765",
-            "summary": "Build-up to the return of the Premier League after the international break with 16 pre-match news conferences, plus Women's Champions League draw.",
-            "title": "Football latest & Premier League news conferences",
+            "url": "/sport/football/67165823",
+            "summary": "Tottenham move five points clear at the top of the Premier League by continuing their superb start to the season with a win at Crystal Palace.",
+            "title": "Tottenham beat Palace to go five clear at top",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
             "tag": "Football"
         },
         {
-            "url": "/sport/tennis/67166854",
-            "summary": "Former British number one Emma Raducanu says she is constantly asking questions and challenging her coaches.",
-            "title": "Coaches can't keep up with my questions - Raducanu",
+            "url": "/sport/rugby-union/67242541",
+            "summary": "England complete their Rugby World Cup campaign by overcoming a proud Argentina performance in the third-place play-off in Paris.",
+            "title": "England sneak past Pumas to win World Cup bronze",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Tennis"
+            "tag": "Rugby Union"
         },
         {
-            "url": "/news/world-us-canada-67163903",
-            "summary": "Beijing now possesses some 500 operational nuclear warheads, a new Pentagon report says.",
-            "title": "China has sharply expanded nuclear arsenal, US says",
-            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "US & Canada"
-        },
-        {
-            "url": "/news/world-us-canada-67166125",
-            "summary": "Charges against Travis King reportedly include desertion and possessing sexual images of a child.",
-            "title": "Soldier who fled to North Korea 'charged in US'",
-            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "US & Canada"
-        },
-        {
-            "url": "/news/world-asia-67051969",
-            "summary": "Fishing communities on this Indonesian island are locked in a battle with the government over land.",
-            "title": "'We will not leave': The islanders fighting eviction",
-            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Asia"
-        },
-        {
-            "url": "/news/world-asia-india-67166633",
-            "summary": "Success of Gaganyaan, India's first manned space mission planned for 2025, will depend on Saturday's launch.",
-            "title": "India key test flight ahead of manned space mission",
-            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "India"
-        },
-        {
-            "url": "https://www.bbc.com/travel/article/20231019-the-women-paddling-the-thames-in-animal-skin-boats",
-            "summary": "Two experimental archaeologists undertake a 219km odyssey",
-            "title": "A Stone Age adventure along the Thames",
-            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Travel"
-        },
-        {
-            "url": "https://www.bbc.com/future/article/20231018-why-are-bed-bugs-so-difficult-to-deal-with",
-            "summary": "They've evolved to make the most of domestic life",
-            "title": "Why bed bugs are getting harder to beat",
-            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Future"
-        },
-        {
-            "url": "https://www.bbc.com/culture/article/20231018-killers-of-the-flower-moon-how-the-shocking-osage-murders-were-nearly-erased-from-us-history",
-            "summary": "The shocking true story behind Scorsese's latest epic",
-            "title": "The murders erased from US history",
-            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Culture"
-        },
-        {
-            "url": "https://www.bbc.com/worklife/article/20231013-are-influencer-partnerships-the-inevitable-future-of-business",
-            "summary": "\"A beautiful art form\": The revenue-driving power of influencer partnerships",
-            "title": "How influencers generate big revenue",
+            "url": "https://www.bbc.com/worklife/article/20231025-gen-x-workers-want-different-benefits-companies-are-answering-the-call",
+            "summary": "Mid-life workers want different benefits, and companies are answering the call",
+            "title": "The new perks for Gen X workers",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
             "tag": "Worklife"
         },
         {
-            "url": "https://www.bbc.com/news/world-africa-67166644",
-            "summary": "The Hollywood actress says \"deception\" ended her love for TV host Selema Masekela",
-            "title": "Lupita Nyong'o fans rally behind her after break-up",
+            "url": "https://www.bbc.com/travel/article/20231025-the-paulding-light-a-us-mystery-you-can-see-but-not-touch",
+            "summary": "\"We were not able to disprove the existence of a ghost\"",
+            "title": "Michigan's mysterious light phenomenon",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Africa"
+            "tag": "Travel"
         },
         {
-            "url": "https://www.bbc.com/sport/africa/67088191",
-            "summary": "Kelvin Kiptum is a world record holder, but he couldn't buy shoes when he started out",
-            "title": "How Kiptum went from borrowed shoes to world records",
+            "url": "https://www.bbc.com/culture/article/20231026-the-enfield-poltergeist-why-the-unexplained-mystery-that-shocked-1970s-britain-continues-to-disturb",
+            "summary": "Why 1970s mystery The Enfield Poltergeist continues to disturb, decades on",
+            "title": "The 'poltergeist' that shocked the UK",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Sport"
+            "tag": "Culture"
         },
         {
-            "url": "https://www.bbc.com/news/world-67158920",
-            "summary": "How closely have you been paying attention to what's been going on over the past week?",
-            "title": "Weekly quiz: What was missing from the start of Madonna’s world tour?",
+            "url": "/news/uk-67235777",
+            "summary": "Once tipped as the country's leader, Li Keqiang has died less than a year after stepping down as premier.",
+            "title": "Li Keqiang: Ex-Chinese premier sidelined by Xi dies",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "World"
+            "tag": "China"
         },
         {
-            "url": "/news/entertainment-arts-67172672",
-            "summary": "She was known for TV shows like Drop the Dead Donkey, Peak Practice, Merseybeat and The Windsors.",
-            "title": "Screen and stage star Haydn Gwynne dies aged 66",
+            "url": "/news/world-asia-china-67236049",
+            "summary": "The beloved leader represents a way of potentially governing China with very different priorities.",
+            "title": "Why Li Keqiang's death is dangerous for Xi Jinping",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "China"
+        },
+        {
+            "url": "/news/world-asia-china-67236498",
+            "summary": "A trained economist, Li was once tipped to be the country's future leader.",
+            "title": "In 60 seconds: Who was China’s Li Keqiang?",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "China"
+        },
+        {
+            "url": "/news/world-asia-india-67191248",
+            "summary": "Reports say the eight men, who worked at a private firm in Qatar, were arrested last year.",
+            "title": "Qatar sentences Indian ex-naval officers to death",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "India"
+        },
+        {
+            "url": "https://www.bbc.com/future/article/20231027-alien-language-if-we-met-extraterrestrials-could-we-talk-to-them",
+            "summary": "Extraterrestrials are likely to have their own unique ways of communicating",
+            "title": "The people who want to speak to aliens",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "Future"
+        },
+        {
+            "url": "https://www.bbc.com/future/article/20231026-are-halloween-pumpkins-a-future-superfood",
+            "summary": "Halloween's favourite decoration could be the superfood of the future",
+            "title": "Pumpkins: The overlooked superfood",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "Future Planet"
+        },
+        {
+            "url": "https://www.bbc.com/travel/article/20231026-the-road-less-travelled-to-the-serengeti",
+            "summary": "On this lesser-known route, there's barely a safari vehicle in sight",
+            "title": "Africa's safari trail with no tourists",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "Travel"
+        },
+        {
+            "url": "https://www.bbc.com/culture/article/20231023-napoleon-to-priscilla-12-of-the-best-films-to-watch-in-november",
+            "summary": "From Napoleon and Priscilla to The Marvels and the Hunger Games prequel",
+            "title": "12 of the best films to watch in November",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "Culture"
+        },
+        {
+            "url": "https://www.bbc.com/travel/article/20231026-eight-of-the-best-smorrebrod-restaurants-in-copenhagen",
+            "summary": "Where to find the city’s most exciting smørrebrød",
+            "title": "A guide to eating lunch in Copenhagen",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "Travel"
+        },
+        {
+            "url": "https://www.bbc.com/worklife/article/20231016-the-dark-side-of-touch-screen-tipping",
+            "summary": "Digital tip options can sometimes increase gratuities, but at what cost?",
+            "title": "The dark side of touch-screen tipping",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "Worklife"
+        },
+        {
+            "url": "https://www.bbc.com/news/health-67228040",
+            "summary": "They were not expected to survive but Ruby and Rosie, now 11, are celebrating with five other sets",
+            "title": "Conjoined twins: Defying the odds to survive",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "Health"
+        },
+        {
+            "url": "/news/uk-england-london-67205468",
+            "summary": "The exhibition includes images from the civil rights movement and of Marilyn Monroe.",
+            "title": "Elton John photography collection to go on display",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "London"
+        },
+        {
+            "url": "/news/entertainment-arts-67242822",
+            "summary": "",
+            "title": "Former Prime Minister Boris Johnson joins GB News",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
             "tag": "Entertainment & Arts"
         },
         {
-            "url": "/news/business-67153676",
+            "url": "/news/health-67208745",
             "summary": "",
-            "title": "Nokia to axe up to 14,000 jobs to cut costs",
+            "title": "Tai chi may slow Parkinson's symptoms, study finds",
             "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Business"
+            "tag": "Health"
+        },
+        {
+            "url": "/news/uk-67229513",
+            "summary": "",
+            "title": "Vogue editor named UK's most powerful black person",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "UK"
+        },
+        {
+            "url": "/news/science-environment-67240450",
+            "summary": "",
+            "title": "The man rescuing Britain's 'magical' glow worms",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "Science & Environment"
+        },
+        {
+            "url": "/news/uk-67225158",
+            "summary": "",
+            "title": "Sunak warns AI could help make chemical weapons",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "UK"
+        },
+        {
+            "url": "/news/science-environment-67230751",
+            "summary": "",
+            "title": "Reintroducing wildlife species 'not a priority'",
+            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "tag": "Science & Environment"
+        },
+        {
+            "url": "/news/in-pictures-67193453",
+            "summary": "",
+            "title": "Skulls and flowers: Mexico's 'skeleton' parade",
+            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/46F0/production/_131506181_1001c480381af28e9eee97f211d0a92c9125b018.jpg",
+            "tag": "In Pictures"
+        },
+        {
+            "url": "/news/in-pictures-67155632",
+            "summary": "",
+            "title": "Steely gaze of endangered tigress tops mangrove photo awards",
+            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/10638/production/_131482176_tigress_index.jpg",
+            "tag": "In Pictures"
         },
         {
             "url": "/news/world-africa-67155786",
             "summary": "",
             "title": "Poses, pouts and poles: Africa's top shots",
-            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
+            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/17DFB/production/_131478779_gettyimages-1725439856.jpg",
             "tag": "Africa"
-        },
-        {
-            "url": "/news/science-environment-67159294",
-            "summary": "",
-            "title": "Christmas cheer for turkey farmers hit by bird flu",
-            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Science & Environment"
-        },
-        {
-            "url": "/news/health-67125232",
-            "summary": "",
-            "title": "Lack of urgency as Covid spread, inquiry told",
-            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Health"
-        },
-        {
-            "url": "/news/technology-67169228",
-            "summary": "",
-            "title": "Meta sorry for Palestinian 'terrorist' bio error",
-            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Technology"
-        },
-        {
-            "url": "/news/entertainment-arts-66808131",
-            "summary": "",
-            "title": "Eric Cantona: 'The Rolling Stones should support me'",
-            "image": "data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7",
-            "tag": "Entertainment & Arts"
         },
         {
             "url": "/news/world-australia-67153713",
@@ -217,27 +259,6 @@
             "title": "Stranded boats and dead fish: Amazon drought",
             "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/9EAC/production/_131402604_7f6545c3410a5b97058eda36cb44d2c79a4640a7.jpg",
             "tag": "In Pictures"
-        },
-        {
-            "url": "/news/world-africa-67087727",
-            "summary": "",
-            "title": "Camels and cauliflowers in focus: Africa's top shots",
-            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/14F0/production/_131406350__gettyimages-1711986329_promo.jpg",
-            "tag": "Africa"
-        },
-        {
-            "url": "/news/world-asia-67088231",
-            "summary": "",
-            "title": "In pictures: Homes and lives destroyed in Afghan quakes",
-            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/4E0C/production/_131408991__dsc2227.jpg",
-            "tag": "Asia"
-        },
-        {
-            "url": "/news/science-environment-67063835",
-            "summary": "",
-            "title": "A tussle between two Nubian ibexes among photo award winners",
-            "image": "https://ichef.bbc.co.uk/wwhp/144/cpsprodpb/16BAA/production/_131389039_976_amit_eshel.jpg",
-            "tag": "Science & Environment"
         }
     ]
 }
