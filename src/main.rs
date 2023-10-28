@@ -39,10 +39,14 @@ fn main()-> Result<(), Box<dyn Error>> {
     let analysing = _matches.is_present("analyse");
 
     if analysing {
+        println!("Please wait while analzying...");
         analyze()?;
+        println!("Analyzed successfully!");
     }else {
         //set default run to scraping
+        println!("Please wiat while scraping ...");
         scrape(_matches.is_present("offline"))?;
+        println!("Scraped and Stored Data successfully!");
     }             
 
     Ok(())
