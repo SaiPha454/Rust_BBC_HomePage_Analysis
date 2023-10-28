@@ -18,7 +18,7 @@ pub mod bbc_analyser_module {
             html = Html::parse_document(&fetch_html("https://www.bbc.com")?);
         }else {
             let mut html_content = String::new();
-            let mut html_file = File::open("./test.html")?;
+            let mut html_file = File::open("./bbc.html")?;
             html_file.read_to_string(&mut html_content)?;
             html = Html::parse_document(html_content.as_str());
         }
