@@ -1,0 +1,50 @@
+
+var ftGUID_4215880="5371BC18D2743B";
+var ftConfID_4215880="0";
+var ftParams_4215880="ftOBA=1&ft_agentEnv=0&ft_referrer=https%3A%2F%2F8e81f13bca9000e539e03ce964579174.safeframe.googlesyndication.com%2Fsafeframe%2F1-0-40%2Fhtml%2Fcontainer.html&us_privacy=${US_PRIVACY}&cachebuster=958206.2619608272&ft_dv=%5B%25ft_dv%25%5D";
+var ftKeyword_4215880="";
+var ftCustom_4215880="";
+var ftSection_4215880="";
+var ftSegment_4215880="afr5,akt3,ai53,ala2";
+var ftSegmentList_4215880=[{s:'afr5'},{s:'akt3'},{s:'ai53'},{s:'ala2'}];
+var ftRuleMatch_4215880="0";
+var ftTimestamp_4215880="1697823879";
+var ftGeoC2_4215880="th";
+var ftGeoState_4215880="11";
+var ftGeoCity_4215880="samut prakan";
+var ftISP_4215880="advanced wireless network company limited";
+var ftSpeed_4215880="broadband";
+var ftConnType_4215880="wifi";
+var ftDMA_4215880="-1";
+var ftLong_4215880="100.59";
+var ftLat_4215880="13.61";
+var ftPostal_4215880="10270";
+var ftTimeZone_4215880="+700";
+var ftMobileCarrier_4215880="";
+var ftImp4215880 = {};
+ftImp4215880.privacy = "x";
+ftImp4215880.guidAge = "400";
+ftImp4215880.impID = "4116EC07-745D-8F9D-AD11-15DEF1437057";
+ftImp4215880.duid = "FT:5371BC18D2743B";
+
+ftImp4215880.ft_tpplid = "";
+ftImp4215880.ft_c = {};
+ftImp4215880.gdpr = "";
+ftImp4215880.gdpr_consent = "";
+ftImp4215880.gdpr_pd = "";
+ftImp4215880.oob_consent = "";
+ftImp4215880.gdprStoredConsent = "";
+ftImp4215880.us_privacy = "!!US_PRIVACY!";
+ftImp4215880.gpc = "";
+
+ftImp4215880.jsAppend = "1";
+(function(){
+    var tag = document.getElementById('ft_servedby_4215880') || (function(s){
+    	return s[s.length-1];
+    }(document.getElementsByTagName('script'))),
+           js = document.createElement('script');
+    js.src =
+"https://cdn.flashtalking.com/xre/421/4215880/3628379/js/j-4215880-3628379.js";
+    js.id = "ftscript_m4215880";
+    tag.parentNode.insertBefore(js, tag);
+}());
